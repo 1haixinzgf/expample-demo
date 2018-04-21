@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    /* min-width: 1000px; */
+    background: blueviolet;
+    opacity: 0.5;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.section{
+    width: 100%;
+    height:300px;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.section .phone{
+    margin-top: 20px;
+    width: 340px;
+    height: 40px;
+    border:1px solid #c4bfbf;
+    position: relative;
+    margin:0 auto;
+}
+
+.phone_img{
+    background: url(1.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.phone_text{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    right: 0;
+    border:1px none #c4bfbf;
+    border-left:none;
+}
+.chit{
+    margin-top:20px;
+    width: 340px;
+    height: 40px;
+    border:1px solid #c4bfbf;
+    position: relative;
+    left: 510px;
+}
+.chit_text{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    right: 0;
+    border:1px none #c4bfbf;
+    border-left:none;
+}
+.passward{
+    margin-top:20px;
+    width: 340px;
+    height: 40px;
+    border:1px solid #c4bfbf;
+    position: relative;
+    left: 510px;
+}
+.passward_text{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    right: 0;
+    border:1px none #c4bfbf;
+    border-left:none;
+}
+.section_box{
+    margin-top:20px;
+    width: 340px;
+    height: 40px;
+    position: relative;
+    left: 510px;
+}
+
+.section_protocal{
+    font-size: 20px;
+    color: salmon;
+}
+.register_button{
+    width:340px;
+    height: 40px;
+    background: slateblue;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 510px;
+    margin-top: 5px;
+    line-height: 40px;
+}
