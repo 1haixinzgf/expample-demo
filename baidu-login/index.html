@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title></title>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+				border: none;
+			}
+			#all {
+				width: 480px;
+				height: 800px;
+				background-color: #fafafa;
+			}
+			#box1 {
+				width: 480px;
+				height: 60px;
+				text-align: center;
+				background-image: url(img/arrow.png);
+				background-repeat: no-repeat;
+				background-size: 30px;
+				background-position-x:100px;
+				background-position-y: 15px;
+				
+			}
+			#box1 a {
+				font-family: "微软雅黑";
+				font-size: 16px;
+				line-height: 60px;
+			}
+			#box2{
+				width: 480px;
+				height: 100px;
+				background-image: url(img/logo.png);
+				background-size: 200px;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-position-y: 5px;
+				
+			}
+			#box3{
+				width: 480px;
+				height: 170px;
+				text-align: center;
+			}
+			#text{
+				width: 90%;
+				height: 50px;
+				border: solid 1px #E2E2E2;
+				border-bottom: none;
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+				border-bottom-left-radius: 0px;
+				border-bottom-right-radius: 0px;
+				padding-left: 20px;
+				box-sizing: border-box;
+				border-bottom: none;
+				-webkit-appearance: none;
+			}
+			#password{
+				width: 90%;
+				height: 50px;
+				border: solid 1px #E2E2E2;
+				border-top-left-radius: 0px;
+				border-top-right-radius: 0px;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
+				padding-left: 20px;
+				box-sizing: border-box;
+				background-image: url(img/eye.png);
+				background-repeat: no-repeat;
+				background-size: 20px;
+				background-position: right;
+				background-position-x: 400px;
+				-webkit-appearance: none;
+			}
+			#button{
+				width: 90%;
+				height: 50px;
+				margin-top: 30px;
+				font-size: 16px;
+				color: #90b6ff;
+				text-align: center;
+				border: 1px solid #367cff;
+				border-radius: 5px;
+				background: #367cff;
+				-webkit-appearance: none;
+			}
+			#box4{
+				width: 90%;
+				height: 50px;
+				font-size: 16px;
+				line-height: 50px;
+				text-align: left;
+				color: #9ab1d1;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			#box5{
+				width: 480px;
+				color: #9ab1d1;
+				font-size: 16px;
+				text-align: center;
+				position: absolute;
+				top: 750px;
+			
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="all">
+			<div id="box1">
+				<a>登录百度帐号</a>
+			</div>
+			<div id="box2"></div>
+			<div id="box3">
+				<input id="text" type="text" placeholder="手机号/邮箱/用户名" />
+				<input id="password" type="password" placeholder="密码" />
+				<div id="eye"></div>
+				<input id="button" type="button" value="登录" />
+			</div>
+			<div id="box4">
+				<a>登录遇到问题</a>
+			</div>
+			<div id="box5">
+				<a>短信验证登录 | 快速注册</a>
+			</div>
+			
+		</div>
+	</body>
+</html>
